@@ -1,0 +1,391 @@
+.first-content {
+    color: white;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px
+}
+header {
+    padding: 16px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+    
+}
+nav li {
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #666666D9;
+}
+.active-nav {
+    color: #111111D9;
+}
+.my-account {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}
+.account-btn {
+    padding: 3px 12px;
+    background-color: #0A0A0A;
+    color: white;
+    border-radius: 4px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.cart-btn {
+    padding: 3px 12px;
+    background-color: #3A3A3A;
+    color: white;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.banner {
+    width: 100%;
+    height: 570px;
+    background-image: url(../images/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+}
+.banner-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text p {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+.banner-text h1 {
+    font-family: Lato;
+    font-size: 82px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+.banner-text button {
+    margin-top: 64px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0px 29px;
+    background-color: white;
+    border: none;
+    border-radius: 134px;
+    cursor: pointer;
+}
+.conditions {
+    width: 847px;
+    height: 101px;
+    padding: 12px 28px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+.conditions-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+.featured-products {
+    width: 330px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.featured-products h1 {
+    font-family: League Spartan;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.featured-products-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+} 
+.featured-products-list li {
+    color: #DF6134;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.featured-products-bar {
+    width: 1270px;
+    height: 460px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gadget-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 42px;
+}
+.gadget-name-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+}
+.gadget-name {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.gadget-price {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #494D48;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.gadget-price span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #2FA013;
+}
+.gadget-name-box button {
+    color: white;
+    background-color: #FD6F5E;
+    border: none;
+    border-radius: 34px;
+    padding: 0px 18px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+    cursor: pointer;
+}
+.ad {
+    margin-top: 106px;
+    width: 100%;
+    height: 1252px;
+    background-image: url(../images/ad_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 44px;
+    padding: 62px 156px;
+    margin-bottom: 66px;
+}
+.ad-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.gadget-ad {
+    width: 620px;
+    height: 676px;
+    border-radius: 34px;
+    padding: 48px 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.gadget-ad h1 {
+    color: black;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gadget-ad p {
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.gadget-ad button {
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 29px;
+    background-color: black;
+    border: none;
+    border-radius: 134px;
+    cursor: pointer;
+}
+.vr-ad {
+    width: 1101px;
+    height: 415px;
+    padding: 52px 111px;
+    background-color: white;
+    margin: auto;
+    border-radius: 34px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 60px;
+}
+.vr-ad-text {
+    width: 494px;
+    height: 227px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.vr-ad-text h1 {
+    color: black;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.vr-ad-text p {
+    color: black;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.vr-ad-text button {
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 29px;
+    background-color: black;
+    border: none;
+    border-radius: 134px;
+    cursor: pointer;
+}
+.special-offers {
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+}
+.subscribe {
+
+    width: 100%;
+    height: 342px;
+    margin-top: 117px;
+    padding: 59px 553px;
+    background-image: url(../images/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 41px;
+    margin-bottom: 27px;
+}
+.sign-up {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6px;
+}
+.sign-up h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sign-up p {
+    color: #FD6F5E;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+}
+.subscribe input {
+    width: 474px;
+    height: 34px;
+    border: none;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 34px;
+}
+.subscribe button {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20.172px;
+    font-weight: 600;
+    text-transform: lowercase;
+    padding: 0px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 133px;
+    cursor: pointer;
+}
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #0000001A;
+    margin-bottom: 20px;
+}
